@@ -5,6 +5,14 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
     font-size: 0;
 }
 
+.wrapper{
+    font-size:2rem;
+    display: inline-block;
+   
+
+}
+
+
 
 /* Box sizing */
 
@@ -13,4 +21,9 @@ see http://stackoverflow.com/questions/6871996/css-two-inline-block-width-50-ele
 }
 
 
+@media screen and (min-width:768px){
+    .wrapper{
+        width=50%;
+    }
+}
 /* Assign styles here */
